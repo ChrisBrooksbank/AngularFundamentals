@@ -40,3 +40,4 @@ Events on the view can call methods on scope and access properties on scope
 The scope is NOT the model
 The model is the data thats put into the scope
 
+ng-src delays loading of image until angular loaded
