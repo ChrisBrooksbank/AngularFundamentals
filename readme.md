@@ -22,7 +22,7 @@ Object.observe, will benefit from performance improvements when this is availabl
 
 docs.angularjs.org/guide, for documentation
 
-Two Way BInding
+Two Way Binding
 As user uses form the model is automatically updated
 
 Has Dirty Checking
@@ -34,5 +34,9 @@ Controller contains logic and state
 Views/Directives - one way and two way binding
 Services - place to contain core business logic and state of project, communicate with server
 
-Angular EventReg
+A controllers primary responsibility is to create a scope object
+A scope object is what is used to communicate with a view thru two way communication
+Events on the view can call methods on scope and access properties on scope
+The scope is NOT the model
+The model is the data thats put into the scope
 
