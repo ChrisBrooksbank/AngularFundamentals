@@ -12,6 +12,29 @@ eventsApp.controller('EventController',
 			city : 'Mountain view',
 			province : 'CA'
 		},
-		imageUrl: '/img/angularjs-logo.png'
+		imageUrl: '/img/angularjs-logo.png',
+		sessions : [
+			{ 
+				name : 'Directives Masterclass',
+				creatorName : 'Tom Kelly',
+				duration: '1 hr',
+				level: 'Advanced',
+				abstract: 'In this session you will learn the ins and outs of directives'
+			},
+			{ 
+				name : 'Scopes for fun and profit',
+				creatorName : 'Chris Brooksbank',
+				duration: '30 mins',
+				level: 'Introductory',
+				abstract: 'This session will take a closer look at scopes. Learn what they do, blah blah blah'
+			},
+			{ 
+				name : 'Well Behaved Controllers',
+				creatorName : 'Ashley Eglin',
+				duration: '2 Hours',
+				level: 'Intermediate',
+				abstract: 'Controllers are the beginning of everything Angular does, blah blah blah.....'
+			}
+		]
 	}
 	});
