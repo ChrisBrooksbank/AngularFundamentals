@@ -40,4 +40,33 @@ Events on the view can call methods on scope and access properties on scope
 The scope is NOT the model
 The model is the data thats put into the scope
 
-ng-src delays loading of image until angular loaded
+Some built in directives : 
+ng-src="{{event.imageUrl}}"          // delays loading of image until angular loaded
+ng-click="upVoteSession(session);
+ng-repeat="session in event.sessions"
+
+Four different ways to write directives, most directives dont support all forms :
+<ng-form /> or <div ng-form /> or <div class="ng-form" /> 
+( or HTML comments )
+
+Some Event directives :
+ngClick
+ngDblClick
+ngMousedown
+ngMouseenter
+ngMouseleave
+ngMousemove
+ngMouseover
+ngMouseup
+ngChange // detects a change event on a lot of HTML elements, requires that ngModel attribute is also defined on the tag
+
+Other directives :
+ng-app="eventsApp" and in app.js : var eventsApp = angular.module('eventsApp', []);
+ngBind="event.name"
+ng-bind-template="{{event.name}} {{event.date}}"
+ngBindHtml         // requires angular-sanitize.js
+ngBindHtmlUnsafe
+
+
+
+
