@@ -34,3 +34,5 @@ Controller contains logic and state
 Views/Directives - one way and two way binding
 Services - place to contain core business logic and state of project, communicate with server
 
+Angular EventReg
+
