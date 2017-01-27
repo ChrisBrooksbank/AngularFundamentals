@@ -1,0 +1,15 @@
+<!doctype html>
+<html ng-app="app">
+	<head>
+	</head>
+	<body>
+		<h1 ng-controller="HelloWorldCtrl">{{helloMessage}}</h1>
+		<Script src="https://code.angularjs.org/1.4.0/angular.js"></Script>
+		<Script type="text/javascript">
+			angular.module('app', []).controller('HelloWorldCtrl', 
+			  function($scope) {
+			  	$scope.helloMessage = "Hello World";
+			  })
+		</Script>
+	</body>
+</html>
